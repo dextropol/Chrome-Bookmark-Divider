@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0mgNuY8fydH+eYpz0mFdLThz0LW9zqNp67IpXTzwBt/vEfXN96OkJU0JEoreiazmRPZe7SXzsRokTO3keF81R/tOCDPgvvbcDqLcygr54no3XnHWMcqGZoFWBvdq1rW8EiNWmFkg5JnY+dRzUYo6yjPTGAolpbjKXxpr9i/ohdwJ/PJw0wJ2N7rUIj2c9AJwbPiTfITTecpQP8+GsNMi2ZTa8yC8EGjkIEmfQS7nY5+CsBxBYUE/6o8DKIPEdVl+aGLwlp8mH0Y6oj9EbNvJ/xKox8BUNZv8sR/Ayw+cOQN8ZR/VjI7UScS3aspah0BWTsBr+Yj52lXjx0mf3kd6AQIDAQAB",
+  "name": "Bookmark Divider",
+  "version": "2.0",
+  "description": "Adds divider lines to the bookmarks bar. Drag them between bookmarks to make groups.",
+  "permissions": ["bookmarks"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": {
+    "default_title": "Add a divider to the bookmarks bar",
+    "default_icon": { "16": "icon16.png", "32": "icon32.png" }
+  },
+  "icons": { "16": "icon16.png", "32": "icon32.png", "48": "icon48.png", "128": "icon128.png" }
+}
